@@ -9,6 +9,19 @@ The clients were asked to give anonymous feedback within a character limit. The 
 - **Facilities at the centre**
 - **Support programs offered**
 
+## Sample Client Feedback
+
+
+| Service received from counsellor                            | Facilities                                         | Support Programs                                         |
+|-------------------------------------------------------------|----------------------------------------------------|----------------------------------------------------------|
+| My counsellor helped me make sense of my emotions.          | It did the job, no complaints.                     | I stayed mostly quiet and just listened.                 |
+| Every session brought me one step closer to recovery.       | The entrance was confusing and not welcoming.      | I didn’t dislike it, but it wasn’t very impactful.       |
+| There wasn’t much depth, but it was okay.                   | Great balance of privacy and openness.             | The activities were creative and helped me reflect.      |
+| My counsellor helped me make sense of my emotions.          | The garden outside helped me decompress.           | It felt like they were going through the motions.        |
+| I didn’t feel any connection with my counsellor.            | Comfortable seating and well-lit rooms.            | The support programs exceeded my expectations.           |
+
+
+
 Using pre-trained NLP models, the system automatically evaluates sentiment from client comments and assigns each a score on a **continuous scale from 1 to 10**, allowing for more nuanced understanding than binary classification.
 
 ---
