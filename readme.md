@@ -39,7 +39,7 @@ Using pre-trained NLP models, the system automatically evaluates sentiment from 
 | 3.2               | 3.2               | 7.8              | 4.73           | Moderately Dissatisfied  |
 | 10.0              | 10.0              | 3.2              | 7.73           | Satisfied                |
 
-## 📊 Counsellor Rating Distribution
+##  Counsellor Rating Distribution
 
 ![Counsellor Rating Distribution](images/feedback_hist.png)
 
@@ -55,7 +55,7 @@ The table below shows the average sentiment scores (on a 1–10 scale) across al
 
 - Extract common keywords from low-rated feedback to highlight specific issues.
 
-### 🧠 Key Issues Identified
+###  Key Issues Identified
 - **Dismissed concerns**: Clients frequently felt that their problems or comments were not taken seriously.
 - **Lack of engagement**: Phrases like *“didn’t make eye contact”* or *“didn’t engage in discussion”* suggest disengagement during sessions.
 - **Disconnected communication**: Some responses imply that counsellors were not fully present or communicative.
@@ -87,14 +87,14 @@ The table below shows the average sentiment scores (on a 1–10 scale) across al
 
 - Distribution plots of client satisfaction per category
 
-  ## 📊 Counsellor Rating Distribution
+  ## Counsellor Rating Distribution
 
 ![Counsellor Rating Distribution](images/counsellor_hist.png)
 
 
 
 
-## 🤝 Why It Matters
+##  Why It Matters
 
 This project demonstrates how natural language processing can turn unstructured feedback into structured, actionable insights,helping support organizations improve care and engagement without manually labeling thousands of comments.
 
