@@ -30,7 +30,36 @@ Using pre-trained NLP models, the system automatically evaluates sentiment from 
 
 - Quantify client satisfaction in three distinct service areas.
 - Identify clients with negative or neutral experiences.
+
+| counsellor_rating | facilities_rating | programs_rating | overall_rating | overall_sentiment       |
+|-------------------|-------------------|------------------|----------------|--------------------------|
+| 10.0              | 7.8               | 5.5              | 7.77           | Satisfied                |
+| 10.0              | 3.2               | 5.5              | 6.23           | Moderately Satisfied     |
+| 5.5               | 10.0              | 10.0             | 8.50           | Satisfied                |
+| 3.2               | 3.2               | 7.8              | 4.73           | Moderately Dissatisfied  |
+| 10.0              | 10.0              | 3.2              | 7.73           | Satisfied                |
+
+## 📊 Counsellor Rating Distribution
+
+![Counsellor Rating Distribution](images/feedback_hist.png)
+
+
+The table below shows the average sentiment scores (on a 1–10 scale) across all feedback categories:
+
+| Category            | Average Score |
+|---------------------|----------------|
+| Counsellor Rating   | 5.73           |
+| Facilities Rating   | 5.75           |
+| Programs Rating     | 7.07           |
+| **Overall Rating**  | **6.18**       |
+
 - Extract common keywords from low-rated feedback to highlight specific issues.
+
+### 🧠 Key Issues Identified
+- **Dismissed concerns**: Clients frequently felt that their problems or comments were not taken seriously.
+- **Lack of engagement**: Phrases like *“didn’t make eye contact”* or *“didn’t engage in discussion”* suggest disengagement during sessions.
+- **Disconnected communication**: Some responses imply that counsellors were not fully present or communicative.
+
 - Recommend actionable improvements for each service category.
 
 ---
@@ -57,6 +86,10 @@ Using pre-trained NLP models, the system automatically evaluates sentiment from 
 ## Sample Output
 
 - Distribution plots of client satisfaction per category
+
+  ## 📊 Counsellor Rating Distribution
+
+![Counsellor Rating Distribution](images/counsellor_hist.png)
 
 
 
