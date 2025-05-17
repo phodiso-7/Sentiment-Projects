@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project applies unsupervised sentiment analysis to feedback collected from clients at a drug counselling centre.
+This project applies unsupervised sentiment analysis on feedback collected from clients at a drug counselling centre.
 The clients were asked to give anonymous feedback within a character limit. The analysis focuses on three key experience categories:
 
 - **Service received from counsellors**
